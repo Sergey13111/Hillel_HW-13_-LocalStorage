@@ -1,4 +1,6 @@
+// 1,2
 import storage from "http://127.0.0.1:5500/storage.js";
+
 
 const getPosts = async () => {
     try {
@@ -23,3 +25,8 @@ const getPosts = async () => {
 };
 
 getPosts();
+
+// 3
+import isValidDateFormat from "http://127.0.0.1:5500/date-format.js";
+
+

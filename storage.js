@@ -18,7 +18,7 @@ const storage = {
             const json = JSON.stringify(value);
             localStorage.setItem(key, json);
         } catch (error) {
-            console.error(error);
+            return console.error(error);
         }
     },
     remove: (key) => {
